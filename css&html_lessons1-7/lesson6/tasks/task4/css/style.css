@@ -1,0 +1,101 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.main{
+	width: 780px;
+	padding: 30px;
+	background: rgb(167,207,223); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(167,207,223,1) 0%, rgba(35,83,138,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.body{
+	width: 500px;
+	margin: auto;
+	padding: 20px;
+	background-color: white;
+}
+.header{
+	height: 80px;
+	width: 500px;
+	background-color: #e6eded;
+	margin: auto;
+	text-align: left;
+	padding-left: 20px;
+}
+h1{
+	display: inline-block;
+	line-height: 80px;
+	font-size: 25px;
+	margin: 0px 55px 0px 20px;
+}
+.input {
+	height: 30px;
+	position: relative;
+	overflow: hidden;
+}
+.input:not(:first-child) {
+	margin-top: 20px;
+}
+.icon {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 1px solid rgba(100, 100, 100, 0.5);
+}
+.email {
+	background: url('../images/1.PNG') no-repeat center;
+}
+.password {
+	background: url('../images/2.PNG') no-repeat center;
+}
+.left {
+	width: 40%;
+	float: left;
+	line-height: 30px;
+	color: darkgrey;
+}
+.right {
+	width: 60%;
+	float: right;
+}
+.text {
+	height: 100%;
+	padding: 0 40px 0 10px;
+}
+.forgot {
+	color: lightblue;
+	text-decoration: underline;
+	font-size: 12px;
+}
+.keep {
+	font-weight: bold;
+}
+.footer {
+	width: 500px;
+	height: 80px;
+	padding: 20px;
+	margin: auto;
+	background-color: #e6eded;
+	text-align: right;
+}
+.button {
+	width: 100px;
+	height: 100%;
+	border: 0 none;
+	color: #fff;
+	font-weight: bold;
+	outline: none;
+	cursor: pointer;
+}
+.register {
+	background: grey;
+}
+.login {
+	margin-left: 20px;
+	background: blue;
+}

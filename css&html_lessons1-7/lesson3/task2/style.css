@@ -1,0 +1,74 @@
+body{
+	background-image: url("images/girl.jpg");
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	font-family: Arial;
+}
+.main{
+	float: right;
+	width: 600px;
+	height: 320px;
+	color: white;
+	margin-top:320px;
+}
+.first{
+	font-size:28px;
+	background-color: rgba(0,0,0,0.7);
+	margin-top: 8px;
+	padding: 10px;
+}
+.second{
+	font-size: 24px;
+	background-color: rgba(0,0,0,0.7);
+	margin-top: 8px;
+	padding: 10px;
+}
+.third{
+	background-color: rgba(0,0,0,0.7);
+	margin-top: 8px;
+	padding: 10px;
+	height: 120px;
+}
+.button{
+	text-transform: uppercase;
+	background: rgb(143, 244, 66);
+	width: 160px;
+	padding: 2px;
+	margin-top: 30px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.c{
+	height: 20px;
+	width: 20px;
+	background-color: rgba(0,0,0,0.7);
+	float: left;
+	border-radius: 50%;
+	margin-left:10px;
+	margin-top: 160px;
+}
+.circle{
+	clear: both;
+	width: 200px;
+	margin: auto;
+}
+.r{
+	height: 50px;
+	width: 50px;
+	background-color: rgba(0,0,0,0.7);
+	float:left;
+	margin-left:2px;
+}
+.range{
+	clear:both;
+	float: right;
+	margin-top: -20px;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+}
